@@ -3,7 +3,11 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
+<<<<<<< HEAD
 -- Generation Time: Jun 30, 2024 at 06:59 AM
+=======
+-- Generation Time: Jul 06, 2024 at 07:48 PM
+>>>>>>> d225ed5 (Commit message for first batch of changes)
 -- Server version: 8.0.33-cll-lve
 -- PHP Version: 8.1.28
 
@@ -5018,8 +5022,14 @@ INSERT INTO `courier` (`cid`, `tracking`, `cons_no`, `letra`, `ship_name`, `phon
 (360, 'WSTLC-100000007', '100000007', 'WSTLC', 'Cash App', '+14252828162', '21755 54th Ave', '012', 'CHAD D HEMLEY', '+13603865706', '', '1723 120th street south', '012', 'susanhemley3@gmail.com', 'Parcel', '0', '2', '8', '94.00', '8', '8', '8', '', 'New York', '1', 'Effective', '10000', '1', '0', 'Package', '05/16/2024', '05/20/2024', 'United States', '', ' | Bayside Hills', '11364', 'United States', '', ' | Tacoma', '10012', 'Delivered', 'PACKAGE DOCUMENT FROM CASH APP', '2024-05-18', 'Delivered', 'Administrator', 'admin', '', 0, 0, 'Bank transfer (cash payment)'),
 (364, 'E-982747282389', '982747282389', 'E', 'dom', 'd32232', 'adasd', 'asdasd', 'sadsad', '21312', '32132', 'asdasd', 'ASDASD', 'aayushverma200@gmail.com', 'Box', '0', '12', '8', '100', '', '', '', '', 'New York', '', 'Effective', '0', '4', '0', 'Documento', '05/22/2024', '05/21/2024', 'dsadas', '', ' | dsadas', '32423', 'SADASD', '', ' | SDDSD', '23323', 'Dispenser', 'sadasd', '2024-05-22', '', 'Administrator', 'admin', '', 100, 110, 'Bank transfer (cash payment)'),
 (365, 'E-158755832459', '158755832459', 'E', 'dom', '123213213', 'ssadsadsad', '123213', 'smith', '21313123', '21213', 'sadsad', 'SADSAD', 'aayushverma200@gmail.com', 'Box', '0', '12', '8', '0', '', '', '', '', 'New York', '', 'Effective', '0', '4', '0', 'Documento', '', '', 'sdsd', '', ' | dewdwd', '2213213', 'SADSAD', '', ' | asdsad', '213213', 'Earring Collection', '', '2024-06-21', '', 'Administrator', 'admin', '', 0, 0, 'Bank transfer (cash payment)'),
+<<<<<<< HEAD
 (366, 'E-401619542354', '401619542354', 'E', 'Blessing Engineering LLC', '0962528825', '785 HAWAII HONOLULU HK', '', 'Dr Harley Brown', '0962528825', '', '785 HAWAII HONOLULU HK', 'Harley Brown', 'brownequipment633@gmail.com', 'Container', '0', '12', '8', '0', '', '', '', '', 'New York', '2', 'Effective', '0', '4', '0', 'Diplomatic Consignment', '06/21/2024', '06/25/2024', 'Germany', '', ' | BERLIN', '45734', 'USA', '', ' | HONOLULU', '45734', 'Earring Collection', '2 CARGO', '2024-06-22', '', 'Administrator', 'admin', '', 0, 0, 'Bank transfer (cash payment)'),
 (367, 'E-227062990984', '227062990984', 'E', 'Blessing Engineering LLC', '962528825', '785 HAWAII HONOLULU HK', '154733', 'Dr Harley Brown', '0962528825', '', '785 HAWAII HONOLULU HK', 'Dr Harley Brown', 'brownequipment633@gmail.com', 'Container', '0', '12', '8', '0', '', '', '', '', 'New York', '2', 'Transfer', '0', '4', '0', 'Documento', '06/21/2024', '06/27/2024', 'United Arab Emirates', '', ' | HONOLULU', '45734', 'USA', '', ' | BERLIN', '45734', 'On route', '2 CARGOS CONTAINER ', '2024-06-22', '', 'Administrator', 'admin', '', 0, 0, 'Bank transfer (cash payment)');
+=======
+(369, 'E-676546354697', '676546354697', 'E', 'Vikram Engineering LLC Berlin', '49', '785 Industrial Area 5 Berlin', '154733', 'Dr. Kevin Brown', '19097882499', '', '785 HAWAII HONOLULU HK', 'Dr. Brian Brown', 'brownequipment633@gmail.com', 'Container', '78000', '12', '8', '660004.00', '', '', '', '', 'Berlin', '2', 'Transfer', '900000', '4', '0', 'Cargo Airfreight', '07/02/2024', '07/05/2024', 'Germany', '', ' | BERLIN', '45734', 'USA', '', ' | HONOLULU', '45734', 'On Hold', 'THREE 40 FEET CONTAINER OF SOLAR PANEL, HEAVY DUTY MARINE AND CONSTRUCTION EQUIPMENT.', '2024-07-03', '', 'Administrator', 'admin', '65000', 0, 0, 'Bank transfer (cash payment)'),
+(367, 'E-227062990984', '227062990984', 'E', 'Blessing Engineering LLC', '962528825', '785 HAWAII HONOLULU HK', '154733', 'Dr Harley Brown', '0962528825', '', '785 HAWAII HONOLULU HK', 'Dr Harley Brown', 'brownequipment633@gmail.com', 'Container', '0', '12', '8', '0', '', '', '', '', 'New York', '2', 'Transfer', '0', '4', '0', 'Documento', '06/21/2024', '06/27/2024', 'United Arab Emirates', '', ' | HONOLULU', '45734', 'USA', '', ' | BERLIN', '45734', 'On route', '2 CARGOS CONTAINER ', '2024-06-22', '', 'Administrator', 'admin', '', 0, 0, 'Bank transfer (cash payment)'),
+(368, 'E-289327811798', '289327811798', 'E', 'Blessing Engineering LLC', '0962528825', 'Wang Drive Singapore', '', 'Dr Harley Brown', '0962528825', '', '785 HAWAII HONOLULU HK', '', '', 'Container', '0', '12', '8', '0', '', '', '', '', 'United Kingdom', '2', 'Transfer', '0', '4', '0', 'Cargo Airfreight', '', '07/02/2024', 'Singapore', '', ' | Las Vegas,', '900AE', '', '', ' | ', '', 'Earring Collection', '2 container', '2024-07-02', '', 'Administrator', 'admin', '', 0, 0, 'Bank transfer (cash payment)');
+>>>>>>> d225ed5 (Commit message for first batch of changes)
 
 -- --------------------------------------------------------
 
@@ -5134,7 +5144,19 @@ INSERT INTO `courier_track` (`id`, `cid`, `cons_no`, `letra`, `pick_time`, `stat
 (159, 364, '982747282389', 'E', 'Afghanistan | ', 'Earring Collection', 'test', '2024-06-09 13:59:58', 'sadsad', 'aayushverma200@gmail.com', 'admin', '2024-06-09', '01:35:00'),
 (160, 364, '982747282389', 'E', 'Afghanistan | Kabul', 'Dispenser', 'Arrived processing centre', '2024-06-14 06:01:53', 'sadsad', 'aayushverma200@gmail.com', 'admin', '2024-06-17', '19:05:00'),
 (161, 367, '227062990984', 'E', 'United States | 785 HAWAII HONOLULU HK', 'In Transit', 'ENROUTE', '2024-06-22 05:44:16', 'Dr Harley Brown', 'brownequipment633@gmail.com', 'admin', '2024-02-06', '23:22:00'),
+<<<<<<< HEAD
 (162, 367, '227062990984', 'E', 'New Zealand | 785 HAWAII HONOLULU HK', 'On route', 'EN ROUTE', '2024-06-22 05:47:01', 'Dr Harley Brown', 'brownequipment633@gmail.com', 'admin', '2024-06-21', '23:40:00');
+=======
+(162, 367, '227062990984', 'E', 'New Zealand | 785 HAWAII HONOLULU HK', 'On route', 'EN ROUTE', '2024-06-22 05:47:01', 'Dr Harley Brown', 'brownequipment633@gmail.com', 'admin', '2024-06-21', '23:40:00'),
+(163, 368, '289327811798', 'E', 'United Kingdom | 785 HAWAII HONOLULU HK', 'Departed', 'shipment is on HOLD', '2024-07-02 10:58:12', 'Dr Harley Brown', '', 'admin', '2024-07-02', '16:57:00'),
+(164, 368, '289327811798', 'E', 'United Kingdom | 785 HAWAII HONOLULU HK', 'Departed', 'shipment is on HOLD', '2024-07-02 10:58:13', 'Dr Harley Brown', '', 'admin', '2024-07-02', '16:57:00'),
+(165, 368, '289327811798', 'E', 'Afghanistan | ', 'Earring Collection', 'ON HOLD', '2024-07-02 17:42:11', 'Dr Harley Brown', '', 'admin', '2024-07-02', '16:41:00'),
+(166, 369, '676546354697', 'E', 'Sweden | Sweden', 'Arrival', 'Shipment Arrive Sweden', '2024-07-03 04:53:52', 'Dr. Brian Brown', 'brownequipment633@gmail.com', 'admin', '2024-07-02', '19:30:00'),
+(167, 369, '676546354697', 'E', 'Sweden | Sweden', 'In Transit', 'Shipment in Transit', '2024-07-03 04:55:03', 'Dr. Brian Brown', 'brownequipment633@gmail.com', 'admin', '2024-07-03', '08:30:00'),
+(168, 369, '676546354697', 'E', 'Sweden | Sweden', 'Departed', 'Shipment Depart Cargo Airport Sweden', '2024-07-03 13:39:17', 'Dr. Kevin Brown', 'brownequipment633@gmail.com', 'admin', '2024-07-03', '10:30:00'),
+(169, 369, '676546354697', 'E', 'Cyprus | Cyprus', 'Arrival', 'Shipment Arrives Cargo Airport Cyprus. ', '2024-07-03 13:41:02', 'Dr. Kevin Brown', 'brownequipment633@gmail.com', 'admin', '2024-07-03', '16:30:00'),
+(170, 369, '676546354697', 'E', 'Cyprus | Cyprus', 'On Hold', 'SHIPMENT IS ON HOLD DUE TO CUSTIM DUTY', '2024-07-05 09:12:36', 'Dr. Kevin Brown', 'brownequipment633@gmail.com', 'admin', '2024-07-04', '17:30:00');
+>>>>>>> d225ed5 (Commit message for first batch of changes)
 
 -- --------------------------------------------------------
 
@@ -5216,7 +5238,10 @@ CREATE TABLE `mode_bookings` (
 --
 
 INSERT INTO `mode_bookings` (`id`, `name`, `services`, `deliverytime`, `observations`, `estado`) VALUES
+<<<<<<< HEAD
 (10, 'Documento', 'Documento', '5 a 10 dias', 'Documento', 1),
+=======
+>>>>>>> d225ed5 (Commit message for first batch of changes)
 (11, 'Paquete', 'PaqueteterÃ­a', '9 a 10 dias', 'Paquete', 1),
 (12, 'Package', 'delivery', '10/11/2017', 'On Transit', 1),
 (13, 'Diplomatic  Delivery', 'Non-Inspection', 'High Priorit', 'Non-Inspection', 1),
@@ -5262,7 +5287,13 @@ INSERT INTO `offices` (`id`, `off_name`, `address`, `city`, `ph_no`, `office_tim
 (76, 'Australia ', '310 Hay Street, East Perth, Western Australia', 'East Perth', '+61 8 9421 7222', '008', 'info@royalperthmint.com', 1),
 (77, 'California', 'California', 'California', '1', '1', '1', 1),
 (78, 'Arizona', 'Arizona', 'Arizona', '1', '1', '1', 0),
+<<<<<<< HEAD
 (79, 'Texas', 'Texas', 'Texas', '1', '1', '1', 1);
+=======
+(79, 'Texas', 'Texas', 'Texas', '1', '1', '1', 1),
+(80, 'PAN OCEAN CARGO LOGISTICS ', 'Berlin Industrial Area 5', 'Berlin', '+4917073857920', '8AM - 8PM', 'James Owen', 1),
+(81, 'Berlin', 'Berlin Industrial Area 5', 'BERLIN', '+49962528825', '8AM - 8PM', 'James Owen', 1);
+>>>>>>> d225ed5 (Commit message for first batch of changes)
 
 -- --------------------------------------------------------
 
@@ -6925,6 +6956,16 @@ CREATE TABLE `temp_courier_track` (
   `future_date` date NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
+<<<<<<< HEAD
+=======
+--
+-- Dumping data for table `temp_courier_track`
+--
+
+INSERT INTO `temp_courier_track` (`id`, `cid`, `cons_no`, `letra`, `pick_time`, `status`, `comments`, `bk_time`, `rev_name`, `email`, `user`, `d`, `t`, `future_date`) VALUES
+(16, 369, '676546354697', 'E', 'Cyprus | Cyprus', 'On Hold', 'SHIPMENT IS ON HOLD DUE TO CUSTOM DUTY', '2024-07-05 09:16:39', 'Dr. Kevin Brown', 'brownequipment633@gmail.com', 'admin', '2024-07-04', '17:30:00', '2024-07-05');
+
+>>>>>>> d225ed5 (Commit message for first batch of changes)
 -- --------------------------------------------------------
 
 --
@@ -7170,7 +7211,11 @@ ALTER TABLE `countries`
 -- AUTO_INCREMENT for table `courier`
 --
 ALTER TABLE `courier`
+<<<<<<< HEAD
   MODIFY `cid` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=368;
+=======
+  MODIFY `cid` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=370;
+>>>>>>> d225ed5 (Commit message for first batch of changes)
 
 --
 -- AUTO_INCREMENT for table `courier_online`
@@ -7188,7 +7233,11 @@ ALTER TABLE `courier_paid`
 -- AUTO_INCREMENT for table `courier_track`
 --
 ALTER TABLE `courier_track`
+<<<<<<< HEAD
   MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=163;
+=======
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=171;
+>>>>>>> d225ed5 (Commit message for first batch of changes)
 
 --
 -- AUTO_INCREMENT for table `manager_admin`
@@ -7212,7 +7261,11 @@ ALTER TABLE `mode_bookings`
 -- AUTO_INCREMENT for table `offices`
 --
 ALTER TABLE `offices`
+<<<<<<< HEAD
   MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=80;
+=======
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=82;
+>>>>>>> d225ed5 (Commit message for first batch of changes)
 
 --
 -- AUTO_INCREMENT for table `online_booking`
@@ -7272,7 +7325,11 @@ ALTER TABLE `tbl_clients`
 -- AUTO_INCREMENT for table `temp_courier_track`
 --
 ALTER TABLE `temp_courier_track`
+<<<<<<< HEAD
   MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+=======
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+>>>>>>> d225ed5 (Commit message for first batch of changes)
 
 --
 -- AUTO_INCREMENT for table `type_shipments`

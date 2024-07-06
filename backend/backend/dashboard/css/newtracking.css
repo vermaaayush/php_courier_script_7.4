@@ -1,0 +1,575 @@
+body,* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, "sans-serif";
+ 
+}
+
+*{
+    box-sizing: border-box;
+    cursor: auto;
+    font-family: Roboto, "sans-serif";
+  
+  
+}
+
+.trackingcontainer {
+    background-attachment: scroll, scroll, scroll;
+    background-clip: border-box, border-box, border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(assets/trackerImages/track-banner-chevron-desktop-small.svg), url(assets/trackerImages/white.svg), url(assets/trackerImages/track-banner-bg-desktop-small.svg);
+    background-origin: padding-box, padding-box, padding-box;
+    background-position-x: calc(100% - 120px), 948.8px, 100%;
+    background-position-y: 130px, 130px, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: auto, cover, cover;    
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    height: 196px;
+    
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    margin:0px 0px 40px;
+    
+    padding-bottom: 0px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 0px;
+    position: relative;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    
+    
+}
+
+.header {
+    background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(0, 0, 0, 0);
+background-image: url(assets/trackerImages/track-icon-desktop.svg);
+background-origin: padding-box;
+background-position-x: 0px;
+background-position-y: 52px;
+background-repeat: no-repeat;
+background-size: 36px 36px;
+
+color: rgb(43, 42, 42);
+
+display: block;
+font-family: Roboto, sans-serif;
+font-size: 36px;
+
+font-weight: 300;
+height: 92px;
+letter-spacing: 0.5px;
+line-height: 44px;
+margin-block-end: 0px;
+margin-block-start: 0px;
+margin-bottom: 0px;
+margin-inline-end: 0px;
+margin-inline-start: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 52px;
+padding-right: 0px;
+padding-top: 48px;
+text-rendering: optimizelegibility;
+text-size-adjust: 100%;
+unicode-bidi: isolate;
+
+
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.header span,.status,.status-date {
+    
+color: rgb(17, 17, 17);
+
+display: inline;
+font-family: Roboto, sans-serif;
+font-size: 36px;
+
+font-weight: 300;
+height: auto;
+letter-spacing: 0.5px;
+line-height: 44px;
+text-rendering: optimizelegibility;
+text-size-adjust: 100%;
+width: auto;
+
+
+}
+.status-date{
+    font-size: 20px;
+}
+
+.status-info{
+    
+  color: rgb(51, 51, 51); /* Gray color */
+  
+  display: inline;
+  font-family: Roboto, "sans-serif";
+  font-size: 16px;
+  
+  font-weight: 400;
+  height: auto;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  text-size-adjust: 100%;
+  width: auto;
+  
+}
+
+
+.update_date{
+    
+    box-sizing: border-box;
+    color: rgb(51, 51, 51); 
+    display: inline;
+    
+    font-kerning: normal; 
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    height: auto;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    width: auto;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+.progress-bar-main{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    height:28px;
+    width: 600px;
+}
+.progress-container {
+    width: 100%;
+    height: 18px;
+    background-color: #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative; /* To position the progress-end */
+    margin-top: 5px;
+}
+
+.progress-bar {
+    height: 100%;
+        background-color: rgb(9, 138, 0);
+    width: 80%;
+    transition: width 1s ease-in-out;
+    transform: scale(2);
+}
+
+.progress-end {
+    position: absolute;
+    top: 0;
+    right: 0; /* Adjust as needed to position the circle */
+    width: 28px;
+    height: 28px;
+        background-color: rgb(9, 138, 0);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottominfo{
+    
+    align-content: flex-end;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    cursor: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-family: Roboto, "sans-serif";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    height: 94px;
+    justify-content: space-between;
+    letter-spacing: 0.2px;
+    line-height: 24px;    
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    width:600px;   
+}
+.deliveredIcon{
+    width: 24px;
+    height: 24px;
+ 
+}
+
+.received-text{
+    box-sizing: border-box;
+color: rgb(107, 107, 107);
+cursor: auto;
+display: block;
+font-family: Roboto, "sans-serif";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+height: 40px;
+letter-spacing: 0.5px;
+line-height: 20px;
+margin: 0;
+padding: 0;
+text-align: left;
+text-size-adjust: 100%;
+unicode-bidi: isolate;
+width: 120px;
+-webkit-font-smoothing: subpixel-antialiased;
+}
+.delivered-wrapper{
+    text-align: right;
+
+}
+
+.delivered-text{
+
+color: rgb(107, 107, 107);
+cursor: auto;
+display: block;
+font-size: 16px;
+font-weight: 500;
+font-style:normal;
+letter-spacing: 0.5px;
+line-height: 20px;
+margin: 0;
+padding: 0;
+text-size-adjust: 100%;
+
+
+}
+.delivery-info{
+letter-spacing: 0.2px;
+line-height: 24px;
+margin: 0; /* Shorthand for setting all margins to 0 */
+padding: 0; /* Shorthand for setting all paddings to 0 */
+
+}
+
+.text-typography-redesigned-light{
+    /* This is a comment, you can use comments to explain your code */
+
+
+color: rgb(51, 51, 51);
+
+font-family: Roboto, "sans-serif";
+font-size: 30px;
+font-style: normal;
+font-weight: 300;
+height: 36px;
+letter-spacing: 0.5px;
+line-height: 36px;
+margin: 0 0 24px 0; /* Shorthand for margin with logical properties */
+padding: 0;
+}
+
+.marginBottom16{
+    margin-bottom: 16px;
+}
+.SenderDetails{
+    display: flex;
+    font-size:16px;
+    font-weight: 200;
+    letter-spacing:0.5px;
+    line-height:24px;
+}
+.sender{
+    font-weight: 500;
+}
+
+.greenSection {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    background: #e7f1e5;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.carbonText {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -.28px;
+    line-height: 20px;
+    color: #19433d;
+    padding-left: 6px;
+}
+
+.arrowDown{
+    background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(0, 0, 0, 0);
+background-image: url(assets/trackerImages/Down.svg);
+background-origin: padding-box;
+background-position-x: 100%;
+background-position-y: 50%;
+background-repeat: no-repeat;
+background-size: 16px 16px;
+box-sizing: border-box;
+color: rgb(4, 103, 198);
+cursor: pointer;
+display: inline-block;
+font-family: Roboto, "sans-serif";
+font-size: 16px; /* You can remove the duplicated 1rem line */
+font-style: normal;
+font-weight: 300;
+height: 24px;
+letter-spacing: 0.2px;
+line-height: 24px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 26px;
+padding-top: 0px;
+text-decoration-color: rgb(4, 103, 198);
+text-decoration-line: none;
+text-decoration-style: solid;
+text-decoration-thickness: auto;
+text-size-adjust: 100%;
+width: 166px;
+-webkit-font-smoothing: subpixel-antialiased;
+}
+
+#track_delivery_details{
+    margin-top:20px;
+}
+#ddSection{
+    padding: 20px 0px;
+}
+
+.serviceInfo{
+    display: flex;
+    font-size:16px;
+    font-weight: 200;
+    letter-spacing:0.5px;
+    line-height:24px;   
+    
+}
+
+#trackprogresstable {
+
+border-collapse: collapse;
+
+box-sizing: border-box;
+color: rgb(51, 51, 51);
+cursor: auto;
+display: table;
+font-family: Roboto, "sans-serif";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 0.2px;
+line-height: 24px;
+text-indent: 0px;
+text-size-adjust: 100%;
+unicode-bidi: isolate;
+width: 633.578px;
+
+/* Vendor prefixes can be removed for broader compatibility */
+-webkit-border-horizontal-spacing: 0px;
+-webkit-border-vertical-spacing: 0px;
+-webkit-font-smoothing: subpixel-antialiased;
+}
+
+.tbtitle{
+border-collapse: collapse;
+font-family: Roboto, sans-serif;
+font-kerning: normal; 
+font-size: 28px;
+font-style: normal;
+font-weight: 300;
+height: 35px;
+letter-spacing: 0.5px;
+line-height: 35px;
+margin: 0px 0 20px 0; 
+padding: 0;
+text-align: left;
+text-indent: 0px;
+
+
+
+-webkit-border-horizontal-spacing: 0px;
+-webkit-border-vertical-spacing: 0px;
+
+
+}
+colgroup{
+    /* This is a comment, you can use comments to explain your code */
+
+border-collapse: collapse;
+box-sizing: border-box;
+color: rgb(51, 51, 51);
+cursor: auto;
+display: table-column-group; /* This property is used within tables */
+font-family: Roboto, "sans-serif";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+height: 365px;
+letter-spacing: 0.2px;
+line-height: 24px;
+text-indent: 0px;
+text-size-adjust: 100%;
+unicode-bidi: isolate;
+width: 633.578px;
+
+/* Vendor prefixes can be removed for broader compatibility */
+-webkit-border-horizontal-spacing: 0px;
+-webkit-border-vertical-spacing: 0px;
+-webkit-font-smoothing: subpixel-antialiased;
+
+}
+
+thead ,tr ,th{
+box-sizing: border-box;
+color: rgb(51, 51, 51);
+
+font-family: Roboto, "sans-serif";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+height: 70.5px;
+letter-spacing: 0.2px;
+line-height: 24px;
+text-indent: 0px;
+text-size-adjust: 100%;
+unicode-bidi: isolate;
+vertical-align: middle;
+
+}
+
+
+#showMoreLink,#showLessLink{
+    /* This is a comment, you can use comments to explain your code */
+
+background-color: rgba(0, 0, 0, 0);
+box-sizing: border-box;
+color: rgb(4, 103, 198);
+cursor: pointer;
+display: inline;
+font-family: Roboto, "sans-serif";
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+height: auto;
+letter-spacing: 0.2px;
+line-height: 24px;
+text-decoration-color: rgb(4, 103, 198);
+text-decoration-line: none;
+text-decoration-style: solid;
+text-decoration-thickness: auto;
+text-size-adjust: 100%;
+width: auto;
+-webkit-font-smoothing: subpixel-antialiased;
+
+}
+
+
+#showMoreLink > img ,#showLessLink>img{
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+.trackMoreBtn{
+   /* This is a comment, you can use comments to explain your code */
+
+align-items: flex-start;
+appearance: none;
+background-color: rgb(4, 103, 198);
+border-bottom-color: rgb(4, 103, 198);
+border-bottom-left-radius: 2px;
+border-bottom-right-radius: 2px;
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-image-outset: 0;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(4, 103, 198);
+border-left-style: solid;
+border-left-width: 2px;
+border-right-color: rgb(4, 103, 198);
+border-right-style: solid;
+border-right-width: 2px;
+border-top-color: rgb(4, 103, 198);
+border-top-left-radius: 2px;
+border-top-right-radius: 2px;
+border-top-style: solid;
+border-top-width: 2px;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: pointer;
+display: inline-block;
+font-family: Roboto;
+
+font-size: 16px;
+
+
+font-weight: 400;
+height: 44px;
+
+line-height: 20px;
+
+
+margin-top: 30px;
+overflow-x: visible;
+overflow-y: visible;
+padding-block-end: 10px;
+padding-block-start: 10px;
+padding-bottom: 10px;
+padding-inline-end: 20px;
+padding-inline-start: 20px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+position: relative;
+text-align: center;
+text-decoration-color: rgb(255, 255, 255);
+text-decoration-line: none;
+text-decoration-style: solid;
+text-decoration-thickness: auto;
+text-indent: 0px;
+text-rendering: auto;
+text-shadow: none;
+text-size-adjust: 100%;
+text-transform: none;
+transition-behavior: normal;
+transition-delay: 0s;
+transition-duration: 0.3s;
+transition-property: background-color;
+transition-timing-function: ease-out;
+width: 177.375px;
+word-spacing: 0px;
+-webkit-font-smoothing: subpixel-antialiased;
+
+}

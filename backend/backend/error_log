@@ -1,0 +1,1 @@
+[24-Jun-2024 19:02:02 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/euroserv/public_html/backend/dashboard/database.php on line 57
